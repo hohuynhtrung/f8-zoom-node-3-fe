@@ -5,5 +5,5 @@ import { defineConfig } from "vite";
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), babel({ presets: [reactCompilerPreset()] })],
-  base: "/f8-zoom-node2-fe",
+  base: "/f8-zoom-node-3-fe",
 });
